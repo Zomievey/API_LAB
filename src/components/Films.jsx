@@ -14,7 +14,7 @@ export default function Films() {
       {films.map((film) => {
         return (
           <>
-            <div className="card"> 
+            <div className="card mt-3"> 
               <Image className="film-photo mt-3" src={film.image} rounded />
             
 
